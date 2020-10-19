@@ -1,0 +1,9 @@
+Waterbottle: {
+  id: INTEGER,
+  fillAmount: FLOAT,
+  brand: {
+    name: STRING,
+    locationX: FLOAT,
+    locationY: FLOAT
+  }
+}

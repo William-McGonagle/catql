@@ -5,7 +5,7 @@
 int main() {
 
   std::string modelName;
-  std::map<std::string, std::string> data = parseModelFromFile("./mechanim/objects/user.shango", modelName);
+  std::map<std::string, std::string> data = parseModelFromFile("./mechanim/objects/waterbottle.shango", modelName);
 
   std::cout << "Model Name: " << modelName << std::endl;
 
