@@ -7,6 +7,6 @@ User: {
     level: FLOAT,
     tier: INTEGER
   },
-  following: LIST<User>,
-  games: LIST<Game>
+  following: LIST<Int>,
+  games: LIST<Int>
 }
