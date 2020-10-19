@@ -1,19 +1,22 @@
 #include <iostream>
 #include <string>
 #include "./parser/objectParser.cpp"
+#include "./parser/functionParser.cpp"
 
 int main() {
 
   std::string modelName;
-  std::map<std::string, std::string> data = parseModelFromFile("./mechanim/objects/waterbottle.shango", modelName);
+  command data = parseFunctionFromFile("./mechanim/functions/create-game.cat");
 
-  std::cout << "Model Name: " << modelName << std::endl;
+  std::cout << "Command Type: " << data.commandType << std::endl;
+  std::cout << "Command Parameters: " << std::endl;
 
-  for (const auto& [key, value] : data) {
+  for(std::string i : data.commandParameters) 
+  {
 
-    std::cout << key << " = " << value << std::endl;
+  	std::cout << " - " << i << std::endl;
 
-  }
+  } 
 
   return 0;
 
