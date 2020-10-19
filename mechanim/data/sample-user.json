@@ -1,0 +1,20 @@
+{
+  "id": 3,
+  "username": "STRING",
+  "birthday": 019152150152,
+  "description": "This is a really basic description",
+  "stats": {
+    "level": 3.431,
+    "tier": 4
+  },
+  "following": [
+    4,
+    5,
+    2
+  ],
+  "games": [
+    4,
+    5,
+    2
+  ]
+}

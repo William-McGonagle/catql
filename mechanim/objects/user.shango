@@ -1,0 +1,12 @@
+User: {
+  id: INTEGER,
+  username: STRING,
+  birthday: DATE,
+  description: TEXT,
+  stats: {
+    level: FLOAT,
+    tier: INTEGER
+  },
+  following: LIST<User>,
+  games: LIST<Game>
+}

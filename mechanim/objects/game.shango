@@ -1,0 +1,5 @@
+Game: {
+  name: STRING,
+  description: TEXT,
+  users: INT
+}
